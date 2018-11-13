@@ -20,7 +20,22 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+* mkdir makes a directory
+* ../ up one directory
+* ../../ up two directories
+* touch - create a file
+* cat - reads a file
+* grep - can't remember
+* pip
+* rm - removes a file
+* pwd - print working directory
+* ls - list contents of a directory, (alt)
+* open - opens a file
+* nano ~/. opens nano environment editor
+
+
+
 
 ---
 
