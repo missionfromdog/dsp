@@ -50,7 +50,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls lists all the files in the current directory
+ls - a lists all files + the hidden files (denoted with a period (.)
+ls - l lists all files (non-hidden) with details about each file (file rights, author, size, date)
+ls - lh lists all files, with the h gives 'human readable format' to the file sizes, typically in bytes, kb, mb, etc.
+ls - lah combines mentioned above, all + hidden, plus file sizes.
+ls - t the 't' sorts the files listed by their last modification date
+ls - Glp the G adds color to the output of just the file category.
 
 ---
 
@@ -58,7 +65,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+ls -1 is very functional;
+ls -g great view of a directory w/out the owner; less is more.
+ls -d seems very functional to get only directories, i like it.
+ls -lt nice list sorted by last modified
+ls -1r reverse order in a vertical list; can't get enough -1
 
 ---
 
