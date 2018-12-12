@@ -78,7 +78,10 @@ ls -1r reverse order in a vertical list; can't get enough -1
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+Xargs reads data from the input (that you give it) and executes it based on the argument given.  In laymans terms, it allows you to create and run a short script which can include multiple commands like find and greg within it and return results. 
+
+It can also read a file and execute commands within it and then pass those arguments and pass them to other commands.  I can see how this might be useful for data science to ask Xargs to read a file (a python script or argument) and then send those results to another file.  I'm guessing this might be a nice way to ask an API for data.
 
  
 
