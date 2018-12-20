@@ -51,13 +51,14 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-ls lists all the files in the current directory
-ls - a lists all files + the hidden files (denoted with a period (.)
-ls - l lists all files (non-hidden) with details about each file (file rights, author, size, date)
-ls - lh lists all files, with the h gives 'human readable format' to the file sizes, typically in bytes, kb, mb, etc.
-ls - lah combines mentioned above, all + hidden, plus file sizes.
-ls - t the 't' sorts the files listed by their last modification date
-ls - Glp the G adds color to the output of just the file category.
+
+* ls lists all the files in the current directory
+* ls - a lists all files + the hidden files (denoted with a period (.)
+* ls - l lists all files (non-hidden) with details about each file (file rights, author, size, date)
+* ls - lh lists all files, with the h gives 'human readable format' to the file sizes, typically in bytes, kb, mb, etc.
+* ls - lah combines mentioned above, all + hidden, plus file sizes.
+* ls - t the 't' sorts the files listed by their last modification date
+* ls - Glp the G adds color to the output of just the file category.
 
 ---
 
@@ -66,11 +67,11 @@ ls - Glp the G adds color to the output of just the file category.
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > >
-ls -1 is very functional;
-ls -g great view of a directory w/out the owner; less is more.
-ls -d seems very functional to get only directories, i like it.
-ls -lt nice list sorted by last modified
-ls -1r reverse order in a vertical list; can't get enough -1
+* ls -1 is very functional
+* ls -g great view of a directory w/out the owner; less is more
+* ls -d seems very functional to get only directories, i like it
+* ls -lt nice list sorted by last modified
+* ls -1r reverse order in a vertical list; can't get enough -1
 
 ---
 
@@ -79,9 +80,9 @@ ls -1r reverse order in a vertical list; can't get enough -1
 What does `xargs` do? Give an example of how to use it.
 
 > > 
-Xargs reads data from the input (that you give it) and executes it based on the argument given.  In laymans terms, it allows you to create and run a short script which can include multiple commands like find and greg within it and return results. 
+* Xargs reads data from the input (that you give it) and executes it based on the argument given.  In laymans terms, it allows you to create and run a short script which can include multiple commands like find and greg within it and return results. 
 
-It can also read a file and execute commands within it and then pass those arguments and pass them to other commands.  I can see how this might be useful for data science to ask Xargs to read a file (a python script or argument) and then send those results to another file.  I'm guessing this might be a nice way to ask an API for data.
+* It can also read a file and execute commands within it and then pass those arguments and pass them to other commands.  I can see how this might be useful for data science to ask Xargs to read a file (a python script or argument) and then send those results to another file.  I'm guessing this might be a nice way to ask an API for data.
 
  
 
