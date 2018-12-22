@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> Python 3.
+>> Python 3.  Reason is I'm newish to programming and grabbed the latest version and dove in head first with Zed Shaw's 'Learn Python 3 The Hard Way' and am 40 exercises in.
 
 ### Q2. Which Python Version Installed   
 
