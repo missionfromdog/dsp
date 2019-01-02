@@ -2,7 +2,11 @@
 
 **Cohen's Effect** is a statistic intended to convey the size of an effect by comparing the variability within groups of data.
 
-The statistic is represented by d, where \frac{d} = {\overrightarrow{x}<sub>1</sub> - {\overright{x}<sub>2</sub>}/s*}
+The statistic is represented by d...
+
+where, trying in markdown:
+
+*\frac{d} = {\overrightarrow{x}<sub>1</sub> - {\overright{x}<sub>2</sub>}/s*}
 
 ```{python3}
 def CohenEffectSize(group1, group2):
