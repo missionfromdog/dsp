@@ -13,7 +13,7 @@ thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Class size', ylabel='PMF')
 ```
 
-![3-1chart](/Users/caseyhess/Dropbox/ThinkStats2/ThinkStats2/code/3-1chart.png)
+![](/statistics/3-1charta.png"))
 
 Here's the python code to plot their means:
 
