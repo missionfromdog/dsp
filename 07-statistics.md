@@ -93,7 +93,11 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+After quite a bit of initial reading, there is a plethora of insight, debate, and argument of both ways of working with statistics. What's more interesting is that there were many attempts to simplify and demistify the two arguments succintly and with analogies, but I didn't find any to my liking.
+
+Generally speaking, the frequentist approach which seems to have dominated the better part of the 20th century, feels more rigid and scientific, with the need for strict settings for repeatable processes to obtain results for probability.  There was less "room" for conversation around a hypothesis, however there was no desire or need for existing, or "a priori" available data at the outset of a statistical exercise, experiment. Frequentist math sounds like it tends to be less sophisticated or complicated but this may be in part based on the fact that it is less interested in existing or prior data. Put simply, the Frequentists tend to think about a coin toss and the probability associated with tossing a head or tail, by "tossing it trillions of times to prove 50% of the time is an accurate probability".  
+
+Bayes on the other hand, which seems to have been in vogue prior to the 20th century and now again in the age of machine learning, has an appetite for existing or observed data. Bayes statistics is willing to consider probabilities and hypothesis, and a subjective prior is acceptable.  With the desire to use and leverage existing and prior data, Bayes is said to be more complicated in it's computation as there's more parameters to consider.  I liked one googled review I read on Bayes that said for the layman, "The more I believe in something, the more I am convinced of something, the higher the probability. Probability (for a Baysesian) just gives a numeric value for the strength of belief/conviction."
 
 ---
 
