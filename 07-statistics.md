@@ -84,9 +84,43 @@ This is a classic example of hypothesis testing using the normal distribution.  
 
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way.  It helps incorporate conditional probabilities into our conclusions.
 
-Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
+Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Reading up here (https://en.wikipedia.org/wiki/Elvis_Presley), Jesse Garron was born 35min earlier, but stillborn, and interesting to note that he was then an identical twin.  That will get used as my evidence in Bayes later.
+
+Not claiming to fully grasp Bayes yet, I've googled a few quick examples (here: https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/), etc and loved the short video overview that gives theorems nicknames, like for Bayes he's called it the "evidence theorem."  I really liked his summation about how Bayes is all about how much you should trust evidence. I can get behind that. So after quite a few readings noted below, I have landed at the following:
+
+notes:
+Probability of Identical = 1/300 = 3%</br>
+Probability of Fraternal = 1/125 = 8%</br>
+Bayes: p(A|B)= p(B|A) * p(A) / p(B)</br>
+
+First, I need a hypothesis based around the birth events:
+
+A = Elvis had a twin that was identical</br>
+B = Elvis had a twin that was fraternal</br>
+
+P(A) = 3% (1 in 300). If the probability of identical is 3% of all twins, then Fraternal must be the other 97%.</br>
+P(B) = 97%</br>
+
+My evidence (priors) then, is that we know Elvis did have an identical twin named Jessie.</br>
+So, G = proof of Elvis's twin identical male brother, or the likelihood will be a probability of 1.</br>
+
+So to determine the likelihoods for both, I'll use G with respect to Elvis's twin being fraternal or identical.
+
+P(G|A) = 1 (Since he was identical, the probability that he was identical is 100% or 1.)</br>
+P(G|B) = 1/2 (I believe this means he had a one out of two chance to be either fraternal or identical</br>
+
+So using a few online Bayes calculators and some searching led me here after I got stuck after reviewing Allen Downey's blog post about this:
+P(A|G) = 8/54 or 15%. I also tried a simpler calculator here (https://byjus.com/bayes-theorem-calculator/) and came out with 16.16% which was closer to Allen's answer.  I'm not sure I got this correct and am looking forward to discussing in class.
+
+
+
+Helpers to get me over the hump:</br>
+https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/</br>
+https://stattrek.com/online-calculator/bayes-rule-calculator.aspx</br>
+https://en.wikipedia.org/wiki/Elvis_Presley</br> 
+http://allendowney.blogspot.com/2011/10/all-your-bayes-are-belong-to-us.html</br> 
 
 ---
 
